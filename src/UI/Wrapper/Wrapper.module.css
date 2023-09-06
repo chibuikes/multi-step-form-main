@@ -1,0 +1,75 @@
+@media(max-width:578px){
+    /*PHONE PHONE*/
+    .div{
+        background-image: url('./bg-sidebar-mobile.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 154px;
+     
+        border-radius:0px;
+        
+    }
+}
+@media(min-width:579px){
+    /*LAPTOP  LAPTOP*/
+    .div{
+        background: white;
+        display:flex;
+        justify-content:space-around;
+        width:95vw;
+        height: 450px;
+        position:absolute;
+        left:2vw;
+        top:10vh;
+        border-radius:10px;
+        
+    }
+}
+@media(min-width:900px){
+    /*LAPTOP  LAPTOP*/
+    .div{
+        background: white;
+        display:flex;
+        justify-content:space-around;
+        width:70vw;
+        height: 450px;
+        position:absolute;
+        left:15vw;
+        top:12vh;
+        border-radius:10px;
+        
+    }
+}
+@media(min-width:1000px){
+
+    /*LAPTOP  LAPTOP*/
+    .div{
+        background: white;
+        display:flex;
+        justify-content:space-around;
+        height: 450px;
+        position:absolute;
+        width:66vw;
+        left:17vw;
+        top:12vh;
+        border-radius:10px;
+        
+    }
+}
+
+@media(min-width:1300px){
+
+    /*LAPTOP  LAPTOP*/
+    .div{
+        background: white;
+        display:flex;
+        justify-content:space-around;
+        width:53vw;
+        height: 70vh;
+        position:fixed;
+        left:22vw;
+        top:15vh;
+        border-radius:10px;
+        
+    }
+}

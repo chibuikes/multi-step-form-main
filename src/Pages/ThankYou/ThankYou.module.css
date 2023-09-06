@@ -1,0 +1,72 @@
+
+  @media(max-width:578px){
+    /*PHONE PHONE*/
+    .container {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+
+     background-color: white;
+    padding: 1px 20px;
+    width:80vw;
+    padding: 20px;
+    position:absolute;
+    left:4vw;
+    height:350px;
+    top:16vh;
+    z-index:199;
+    border-radius: 10px;
+    box-shadow:1px 2px 20px rgba(0, 0, 0, 0.144);
+ 
+ 
+    }
+    .p1 {
+      color: hsl(243, 100%, 82%);
+      font-size: 13px;
+      text-align:center;
+    }
+    .h1 {
+      color: hsl(213, 96%, 18%);
+      font-size: 24px;
+      text-align: center;
+      margin-top: 53px;
+      margin-bottom: -10px;
+    }
+    .img{
+      width:45px;
+     
+      position: absolute;
+      left:45%;
+      
+      
+    }
+}
+@media(min-width:579px){
+    /*LAPTOP  LAPTOP*/
+    .container {
+      width: 50%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+    }
+    .p1 {
+      color: hsl(243, 100%, 82%);
+      font-size: 13px;
+      text-align:center;
+    }
+    .h1 {
+      color: hsl(213, 96%, 18%);
+      font-size: 24px;
+      text-align: center;
+      margin-top: 53px;
+      margin-bottom: -10px;
+    }
+    .img{
+      width:45px;
+     
+      position: absolute;
+      left:65%;
+      
+      
+    }
+}

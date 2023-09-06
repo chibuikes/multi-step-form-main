@@ -1,0 +1,244 @@
+
+  
+  @media(max-width:578px){
+    /*PHONE PHONE*/
+    .container{
+      background-color: white;
+      padding: 1px 20px;
+      width:80vw;
+      padding: 20px;
+      position:absolute;
+      left:4vw;
+      top:16vh;
+      z-index:199;
+      border-radius: 10px;
+      box-shadow:1px 2px 20px rgba(0, 0, 0, 0.144);
+  
+  
+  }
+  .h1{
+      color:hsl(213, 96%, 18%);
+      font-size: 24px;
+
+    
+  }
+  .p1{
+      color:hsl(243, 100%, 82%);
+      font-size:13px;
+  } 
+  a.p1:hover{
+    color:hsl(243, 100%, 42%);
+    font-size:13px;
+  }
+  
+  .p2{
+    color:hsl(213, 96%, 18%);
+    font-size:13px;
+    font-weight: 650;
+  }
+    /*checked*/
+  
+  .p3{
+    color:hsl(213, 100%, 18%);
+    font-size:13px;
+    font-weight: 550;
+  }
+  
+  .p4{
+    color:hsl(243, 100%, 60%);
+    font-weight: 650;
+  }
+    /*checked*/
+  
+    .div3 {
+      position: absolute;
+      display:flex;
+      justify-content: space-between;
+      bottom:-70px;
+      left:4vw;
+      right:0%
+  }
+    /*checked*/
+  
+    .btn{
+      background: hsl(243, 100%, 60%);
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+  
+    }
+    /*checked*/
+  
+    .btn1{
+      background: transparent;
+      color: hsl(228, 100%, 80%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+    /*checked*/
+    
+  
+    button.btn:hover{
+      background: hsl(243, 100%, 75%) ;
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    }
+    /*checked*/
+  
+  button.btn1:hover{
+      background: transparent;
+      color: hsl(213, 96%, 20%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+  
+    /*checked*/
+  
+    .sec{
+      background-color:hsl(228, 100%, 97%);
+      padding:0px 10px;
+    
+    }
+    /*checked*/
+  
+    .div{
+      display: flex;
+      justify-content:space-between;
+      padding:0px 10px;
+  
+    }
+    /*checked*/
+    .divl{
+      display: flex;
+      justify-content:space-between;
+      padding:0px 10px;
+      border-bottom: 1px solid hsl(0, 0%, 90%);
+    } 
+}
+@media(min-width:579px){
+    /*LAPTOP  LAPTOP*/
+    .container{
+      width:50%;
+  }
+  .h1{
+      color:hsl(213, 96%, 18%);
+    
+  }
+  .p1{
+      color:hsl(243, 100%, 82%);
+      font-size:13px;
+  } 
+  a.p1:hover{
+    color:hsl(243, 100%, 42%);
+    font-size:13px;
+  }
+  
+  .p2{
+    color:hsl(213, 96%, 18%);
+    font-size:13px;
+    font-weight: 650;
+  }
+    /*checked*/
+  
+  .p3{
+    color:hsl(213, 100%, 18%);
+    font-size:13px;
+    font-weight: 550;
+  }
+  
+  .p4{
+    color:hsl(243, 100%, 60%);
+    font-weight: 650;
+  }
+    /*checked*/
+  
+  .div3{
+    position: absolute;
+      display:flex;
+      justify-content: space-between;
+      bottom:5%;
+      left:40%;
+      right:10%
+      
+    } 
+    /*checked*/
+  
+    .btn{
+      background: hsl(243, 100%, 60%);
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+  
+    }
+    /*checked*/
+  
+    .btn1{
+      background: transparent;
+      color: hsl(228, 100%, 80%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+    /*checked*/
+    
+  
+    button.btn:hover{
+      background: hsl(243, 100%, 75%) ;
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    }
+    /*checked*/
+  
+  button.btn1:hover{
+      background: transparent;
+      color: hsl(213, 96%, 20%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+  
+    /*checked*/
+  
+    .sec{
+      background-color:hsl(228, 100%, 97%);
+      padding:0px 10px;
+    
+    }
+    /*checked*/
+  
+    .div{
+      display: flex;
+      justify-content:space-between;
+      padding:0px 10px;
+  
+    }
+    /*checked*/
+    .divl{
+      display: flex;
+      justify-content:space-between;
+      padding:0px 10px;
+      border-bottom: 1px solid hsl(0, 0%, 90%);
+    } 
+}

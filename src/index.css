@@ -1,0 +1,49 @@
+
+@media(max-width:578px){
+  /*PHONE PHONE*/
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  }
+  
+  #rooty{
+    background:hsl(228, 100%, 95%);
+    width:100vw;
+    height:350px;
+    position:absolute;
+    top:150px;
+    z-index:0;
+
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+}
+@media(min-width:579px){
+  /*LAPTOP  LAPTOP*/
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background:hsl(228, 100%, 95%);
+  overflow-x: hidden;
+  }
+  #rooty{
+  display:none;
+
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}

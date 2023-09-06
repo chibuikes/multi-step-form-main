@@ -1,0 +1,183 @@
+
+
+@media(max-width:578px){
+    /*PHONE PHONE*/
+    .p{
+        color:hsl(213, 96%, 28%);
+        font-size:13px;
+    }
+    
+    .h1{
+        color:hsl(213, 96%, 18%);
+        font-size: 24px;
+      
+    }
+    .p1{
+        color:hsl(243, 100%, 82%);
+        font-size:13px;
+    }
+    .form{
+        position:relative;
+    }
+    .div{
+        position: absolute;
+        display:flex;
+        justify-content: space-between;
+        bottom:-70px;
+        left:0vw;
+        right:0%
+    }
+    .btn{
+        background: hsl(213, 96%, 25%);
+        color:white;
+        border:none;
+        border-radius:6px;
+        padding:10px 20px;
+      cursor:pointer;
+      width:100px;
+    
+    
+    }
+    .btnDis{
+        background: gray;
+        color:black;
+        border:none;
+        border-radius:6px;
+        padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+    
+    
+    }
+    .container{
+        background-color: white;
+        padding: 1px 20px;
+        width:80vw;
+        padding: 20px;
+        position:absolute;
+        left:4vw;
+        top:16vh;
+        z-index:199;
+        border-radius: 10px;
+        box-shadow:1px 2px 20px rgba(0, 0, 0, 0.144);
+
+
+    }
+    .red{
+        color:red;
+        font-size:13px;
+    }
+    .input{
+        padding:10px 8px ;
+        width:90%;
+        border:0.1px solid  hsl(213, 96%, 75%);
+    border-radius: 5px;
+    cursor:pointer;
+    outline: none;
+    }
+    .inputError{
+        padding:10px 8px ;
+        width:90%;
+        border:0.1px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+    outline: none;
+
+    }
+    input.input:active{
+        padding:10px 8px ;
+        width:90%;
+        border:0.1px solid  hsl(213, 96%, 75%);
+    border-radius: 5px;
+    }
+    .flex{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+@media(min-width:579px){
+    /*LAPTOP  LAPTOP*/
+    .p{
+        color:hsl(213, 96%, 28%);
+        font-size:13px;
+    }
+    
+    .h1{
+        color:hsl(213, 96%, 18%);
+      
+    }
+    .p1{
+        color:hsl(243, 100%, 82%);
+        font-size:13px;
+    }
+    .div{
+        position: absolute;
+        display:flex;
+        justify-content: space-between;
+        bottom:5%;
+        left:40%;
+        right:10%
+    }
+    .btn{
+        background: hsl(213, 96%, 25%);
+        color:white;
+        border:none;
+        border-radius:6px;
+        padding:10px 20px;
+      cursor:pointer;
+      width:100px;
+    
+    
+    }
+    .btnDis{
+        background: gray;
+        color:black;
+        border:none;
+        border-radius:6px;
+        padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+    
+    
+    }
+    .container{
+        width:50%;
+    }
+    .red{
+        color:red;
+        font-size:13px;
+    }
+    .input{
+        padding:10px 8px ;
+        margin-top: -10px;
+        width:100%;
+        border:0.1px solid  hsl(213, 96%, 75%);
+    border-radius: 5px;
+    cursor:pointer;
+    }
+    .inputError{
+        padding:10px 8px ;
+        margin-top: -10px;
+        width:100%;
+        border:0.1px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+    }
+    input.input:active{
+        padding:10px 8px ;
+        margin-top: -10px;
+        width:100%;
+        border:0.1px solid  hsl(213, 96%, 75%);
+    border-radius: 5px;
+    }
+    .flex{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+/*
+- Marine blue: hsl(213, 96%, 18%)
+- Purplish blue: hsl(243, 100%, 62%)
+- Pastel blue: hsl(228, 100%, 84%)
+- Light blue: hsl(206, 94%, 87%)
+*/

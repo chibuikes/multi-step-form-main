@@ -1,0 +1,314 @@
+
+
+
+  @media(max-width:578px){
+    /*PHONE PHONE*/
+    .container{
+      background-color: white;
+      padding: 1px 20px;
+      width:80vw;
+      padding: 20px;
+      position:absolute;
+      left:4vw;
+      top:16vh;
+      z-index:199;
+      border-radius: 10px;
+      box-shadow:1px 2px 20px rgba(0, 0, 0, 0.144);
+  
+  
+  }
+  .p{
+      color:hsl(243, 100%, 82%);
+      font-size:13px;
+  }
+  .sec{
+      display:flex;
+      flex-direction:column;
+  }
+  
+  .check{
+      accent-color: hsl(243, 100%, 60%);
+      cursor:pointer;
+      margin-right: 20px;
+  
+  
+  }
+  .check2{
+    cursor:pointer;
+  width:13px;
+  height:12px;
+  background-color: hsl(243, 100%, 60%);
+  padding: 1px;
+  border-radius:2px;
+  margin-right: 13px;
+  }
+  .uncheck2{
+    cursor:pointer;
+  width:11px;
+  height:12px;
+  background-color: white;
+  padding: 1px;
+  border-radius:2px;
+  margin-right: 13px;
+  border: 1px solid hsl(243, 100%, 95%);
+  }
+  
+  .check1{
+    cursor:pointer;
+    width:15px;
+    height:15px;
+    border:none;
+  
+  
+  }
+  .h1{
+      color: hsl(213, 96%, 18%); 
+      font-size: 24px;
+  }
+  .p1{
+      font-weight: bold;
+      color: hsl(213, 96%, 18%);
+      font-size: 0.9em;
+  }
+  .p2{
+        margin-top: -13px;
+        color:hsl(243, 100%, 82%);
+        font-size:11px;
+    
+       
+  }
+  
+  
+  .checked{
+      display:flex;
+      justify-content:space-between;
+      border-radius: 10px;
+      height:70px;
+      margin-bottom:9px;
+      border:1px solid hsl(213, 96%, 18%);
+      background-color:hsl(228, 100%, 97%);
+      position: relative;
+      cursor:pointer;
+   
+  
+  
+  }
+  .unchecked{
+      display:flex;
+      justify-content:space-between;
+      border-radius: 10px;
+      height:70px;
+      margin-bottom:9px;
+      border:1px solid hsl(213, 96%, 92%);
+      background-color:transparent;
+      position: relative;
+      cursor:pointer;
+  
+  
+  }
+  .div3 {
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    bottom:-70px;
+    left:4vw;
+    right:0%
+}
+    .row{
+      display:flex;
+      justify-content: space-around;
+      position:absolute;
+      left :10px;
+    }
+    .row1{
+      margin-top: 25px;
+    }
+    .p3{
+      position:absolute;
+      color: hsl(243, 100%, 60%);
+      font-size:11px;
+      right:20px;
+      top:10px;
+  }
+    .btn{
+      background: hsl(213, 96%, 25%);
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+  
+    }
+    .btn1{
+      background: transparent;
+      color: hsl(228, 100%, 80%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+    
+  button.btn1:hover{
+      background: transparent;
+      color: hsl(213, 96%, 20%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+
+}
+@media(min-width:579px){
+    /*LAPTOP  LAPTOP*/
+    .container{
+      width:50%;
+  }
+  .p{
+      color:hsl(243, 100%, 82%);
+      font-size:13px;
+  }
+  .sec{
+      display:flex;
+      flex-direction:column;
+  }
+  
+  .check{
+      accent-color: hsl(243, 100%, 60%);
+      cursor:pointer;
+      margin-right: 20px;
+  
+  
+  }
+  .check2{
+    cursor:pointer;
+  width:11px;
+  height:10px;
+  background-color: hsl(243, 100%, 60%);
+  padding: 1px;
+  border-radius:2px;
+  margin-right: 20px;
+  }
+  .uncheck2{
+    cursor:pointer;
+  width:9px;
+  height:10px;
+  background-color: white;
+  padding: 1px;
+  border-radius:2px;
+  margin-right: 20px;
+  border: 1px solid hsl(243, 100%, 95%);
+  }
+  
+  .check1{
+    cursor:pointer;
+    width:15px;
+    height:15px;
+    border:none;
+  
+  
+  }
+  .h1{
+      color: hsl(213, 96%, 18%); 
+  }
+  .p1{
+      font-weight: bold;
+      color: hsl(213, 96%, 18%);
+  }
+  .p2{
+       margin-top: -13px;
+        color:hsl(243, 100%, 82%);
+        font-size:13px;
+    
+       
+  }
+  
+  
+  .checked{
+      display:flex;
+      justify-content:space-around;
+      border-radius: 10px;
+      height:70px;
+      margin-bottom:9px;
+      border:1px solid hsl(213, 96%, 18%);
+      background-color:hsl(228, 100%, 97%);
+      position: relative;
+    cursor:pointer;
+  
+  
+  }
+  .unchecked{
+      display:flex;
+      justify-content:space-around;
+      border-radius: 10px;
+      height:70px;
+      margin-bottom:9px;
+      border:1px solid hsl(213, 96%, 92%);
+      background-color:transparent;
+      position: relative;
+    cursor:pointer;
+  
+  
+  }
+  .div3{
+      position: absolute;
+      display:flex;
+      justify-content: space-between;
+      bottom:5%;
+      left:40%;
+      right:10%
+    }
+    .row{
+      display:flex;
+      justify-content: space-around;
+      position:absolute;
+      left :10px;
+    }
+    .row1{
+      margin-top: 25px;
+    }
+    .p3{
+      position:absolute;
+      color: hsl(243, 100%, 60%);
+      font-size:11px;
+      right:20px;
+      top:10px;
+  }
+    .btn{
+      background: hsl(213, 96%, 25%);
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    width:100px;
+  
+    }
+    .btn1{
+      background: transparent;
+      color: hsl(228, 100%, 80%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+    
+  button.btn1:hover{
+      background: transparent;
+      color: hsl(213, 96%, 20%);
+      border:none;
+      border-radius:6px;
+      padding:10px 20px;
+    cursor:pointer;
+    
+    }
+}
+/*
+- Marine blue: hsl(213, 96%, 18%)
+- Purplish blue: hsl(243, 100%, 62%)
+- Pastel blue: hsl(228, 100%, 84%)
+- Light blue: hsl(206, 94%, 87%)
+*/
